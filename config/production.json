@@ -1,0 +1,6 @@
+{
+  "port": 80,
+  "jwtSecret": "maksymmern",
+  "mongoUri": "mongodb+srv://maksym:uEzpisM6FwtaGmTV@mern-hdgrf.azure.mongodb.net/test?retryWrites=true&w=majority",
+  "baseUrl": "https://booklist.azurewebsites.net/"
+}
