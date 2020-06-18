@@ -35,7 +35,7 @@ export const CreateBookPage = () => {
 
     return (
         <div>
-            <h1>CreateBook Page</h1>
+            <h1>Create Book</h1>
             <div className="row">
                 <div className="col s8 offset-s2" style={{paddingTop: '2rem'}}>
                     <div>
@@ -58,17 +58,17 @@ export const CreateBookPage = () => {
                         <div className="input-field">
                             <input placeholder="Enter your linkTo" id="linkTo" type="url"
                                    className="validate" name="linkTo" value={book.linkTo} onChange={changeHandler}/>
-                            <label htmlFor="linkTo">linkTo book</label>
+                            <label htmlFor="linkTo">Link</label>
                         </div>
                         <div className="input-field">
                             <input placeholder="Enter your password" id="pages" type="number"
                                    className="validate" name="pages" value={book.pages} onChange={changeHandler}/>
-                            <label htmlFor="pages">pages</label>
+                            <label htmlFor="pages">Number of pages</label>
                         </div>
                         <div className="input-field">
                             <input placeholder="Enter your deadline" id="deadline" type="date"
                                    className="validate" name="deadline" value={book.deadline} onChange={changeHandler}/>
-                            <label htmlFor="deadline">deadline</label>
+                            <label htmlFor="deadline">Deadline</label>
                         </div>
                         <div className="card-action">
                             <button className="btn yellow darken-4" style={{marginRight: 10}}
